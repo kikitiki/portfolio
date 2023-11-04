@@ -1,0 +1,289 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="mediaqueries.css" rel="stylesheet" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kristina Tikvicki</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kristina Tikvicki</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          class="img_profile"
+          src="./assets/profilePic.jpg"
+          alt="Kiki profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Kristina</h1>
+        <h3 class="section__title__p2">Junior Software engineer</h3>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/tikvicki/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My linkedin profile"
+              class="icon"
+            />
+          </a>
+
+          <a href="https://github.com/kikitiki" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My github profile"
+              class="icon"
+            />
+          </a>
+
+          <a href="https://gitlab.com/KristinaTikvicki1989" target="_blank">
+            <img
+              src="./assets/gitlab.png"
+              alt="My gitlab profile"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img src="./assets/taking-notes-on-programming (1).jpg" alt="" />
+        </div> -->
+        <div class="about-details-container">
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>
+              Faculty of Technical Sciences <br />Software and information
+              technology
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-container">
+        <p class="titleEducation">
+          I am an undergraduate student majoring in Software and Information
+          Technology at the Faculty of Technical Sciences. I'm passionate about
+          coding and technology, apart from coding, I have a strong passion for
+          cycling, which allows me to unwind and explore nature and the
+          outdoors. I also enjoy meeting new people and learning from them, as I
+          believe that everyone has something valuable to offer. In my free
+          time, I love to explore new technologies and acquire new skills. I'm
+          ready to tackle challenges and work on projects that will advance the
+          world of technology. If you're interested in collaborating or just
+          want to have a chat, feel free to reach out to me!
+        </p>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <section id="skills">
+      <h3 id="textSkill">Skills</h3>
+      <div class="about-containers">
+        <div class="skill-icons first-row">
+          <div class="skill-icon-container">
+            <img src="./assets/html-5.png" alt="HTML" class="skill-icon" />
+            <p>Html</p>
+          </div>
+          <div class="skill-icon-container">
+            <img src="./assets/css.png" alt="CSS" class="skill-icon" />
+            <p>Css</p>
+          </div>
+          <div class="skill-icon-container">
+            <img src="./assets/java.png" alt="Java" class="skill-icon" />
+            <p>Java</p>
+          </div>
+          <div class="spring">
+            <img src="./assets/icons8-spring-boot-48.png" alt="skill-icon">
+            <p>Spring Boot</p>
+          </div>
+          <div class="skill-icon-container second-row">
+            <img src="./assets/mysql.png" alt="mysql" class="skill-icon" />
+            <p>MySql</p>
+          </div>
+          <div class="skill-icon-container">
+            <img src="./assets/elastic.png" alt="Git" class="skill-icon" />
+            <p>Elasticsearch</p>
+          </div>
+          <div class="skill-icon-container">
+            <img src="./assets/git.png" alt="Git" class="skill-icon" />
+            <p>Git</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Exlopre my</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-details-container color-container">
+        <h2 class="expirence-sub-title project-title">Project - Paws adoption</h2>
+        <div class="article-container">
+            <img src="./assets/paws__picture2.png" alt="Project 1" class="project-img" />
+        </div>
+        <div class="project-btn-container">
+          <a href="https://kikitiki.github.io/" target="_blank"><button
+            class="btn btn-color-2"
+            
+          > Github</a>
+          </button>
+        </div>
+      </div>
+
+
+      <div class="projects-details-container color-container">
+        <h2 class="expirence-sub-title project-title">Project - Reddit clone</h2>
+        <div class="article-container">
+          <img src="./assets/picReddit1.png" alt="Project 1" class="project-img" />
+          <img src="./assets/picReddit7.png" alt="Project 1" class="project-img" />
+        </div>
+        <p class="project-descrption">This project is a Reddit clone application that combines Angular for the front-end and Java Spring Boot for the back-end.</p>
+        <div class="project-btn-container">  
+          <a href="https://gitlab.com/KristinaTikvicki1989/swt_redditclone" target="_blank">          <button
+            class="btn btn-color-2">
+            Gitlab
+          </button></a>
+        </div>
+      </div>
+
+      <div class="projects-details-container color-container">
+        <h2 class="expirence-sub-title project-title">Project - Web </h2>
+        <div class="article-container">
+          <img src="./assets/webPic.png" alt="Project 1" class="project-img" />
+          <img src="./assets/webPic4.png" alt="Project 1" class="project-img" />
+        </div>
+        </div>
+        <p class="project-descrption">This project is a web application developed in Java, following the Model-View-Controller (MVC) architecture. </p>
+      
+        <div class="project-btn-container">
+          <a href="https://gitlab.com/KristinaTikvicki1989/projekatweb" target="_blank">          
+            <button
+              class="btn btn-color-2"
+            
+            >
+              Gitlab
+            </button></a>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+
+    <div class="more">
+      <p >If you want to see more of my work you can chek my</p> 
+      <div class="section-container">
+        <div id="socials-container">
+          <a href="https://github.com/kikitiki" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My github profile"
+              class="icon"
+            />
+          </a>
+
+          <a href="https://gitlab.com/KristinaTikvicki1989" target="_blank">
+            <img
+              src="./assets/gitlab.png"
+              alt="My gitlab profile"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in touch</p>
+      <h1 class="title">Contact me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon icon-contact email-icon"
+          />
+          <p>
+            <a>krisitnatikvicki@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin icon"
+            class="icon icon-contact icon-linkedin"
+          />
+          <p>
+            <a href="https://www.linkedin.com">linkedin</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
