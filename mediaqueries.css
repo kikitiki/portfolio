@@ -46,6 +46,11 @@
   .about-containers {
     margin-top: 0;
   }
+  .more {
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -65,7 +70,7 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .contact-info-upper-containe,
+  .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
@@ -106,5 +111,10 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .more {
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
   }
 }
