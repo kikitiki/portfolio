@@ -351,9 +351,13 @@ p {
   margin: 0 auto;
 }
 #projects {
-  position: relative;
-  /* margin-bottom: 2rem; */
+  overflow-y: auto;
+  max-height: 60vh;
   margin-top: 12rem;
+  margin-bottom: 5rem;
+  /* margin-bottom: 2rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem; */
 }
 /* .expirence-sub-title project-title{
 
@@ -369,7 +373,11 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
+  margin-bottom: 2rem;
+
+  /* padding: 2rem; */
+  /* box-sizing: border-box; */
 }
 
 .article-container {
@@ -401,14 +409,6 @@ p {
   margin-top: 20px;
   text-align: center;
 }
-/*Contact*/
-
-/* #contact {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 2rem;
-} */
 
 #contact {
   display: flex;
@@ -454,7 +454,6 @@ p {
 footer {
   height: 26vh;
   margin: 0 1rem;
-  /* margin-bottom: 20rem; */
 }
 
 footer p {
@@ -464,7 +463,9 @@ footer p {
 /* more */
 
 .more {
-  margin-top: 72rem;
+  margin-top: 5rem;
+  height: auto;
+  /* margin-top: 72rem; */
   text-align: center;
   padding: 2rem 0;
 }
