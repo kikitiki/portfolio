@@ -376,8 +376,8 @@ p {
   height: auto;
   margin-bottom: 2rem;
 
-  /* padding: 2rem; */
-  /* box-sizing: border-box; */
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .article-container {
